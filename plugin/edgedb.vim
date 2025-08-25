@@ -1,4 +1,4 @@
 augroup edgedb
-    autocmd BufRead,BufNewFile *.esdl,*.edgeql :set filetype=edgeql
+    autocmd BufRead,BufNewFile *.esdl,*.edgeql,*.gel :set filetype=edgeql
 augroup end
 
