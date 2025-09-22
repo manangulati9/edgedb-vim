@@ -88,7 +88,7 @@ def main():
         syntax match edgeqlBool /\m\ctrue\|false/
 
         syntax match edgeqlStr /\mr\?\(['"]\)\_.\{{-}}\1/
-        syntax match edgeqlDollarStr /\mr\?\(\$\([A-Za-z\200-\377_][0-9]\*\)\*\$\)\_.\{{-}}\1/
+        syntax match edgeqlDollarStr /\mr\?\(\$\([A-Za-z\200-\377_][A-Za-z0-9\200-\377_]*\)\?\$\)\_.\{{-}}\1/
 
         hi def link edgeqlComment Comment
         hi def link edgeqlOp Operator

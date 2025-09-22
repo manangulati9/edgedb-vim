@@ -7,4 +7,4 @@ fetch-metagrammar:
 
 
 regen-grammar:
-	PYHTONPATH=$(shell pwd) python gen_grammar.py
+	PYHTONPATH=$(shell pwd) python3 gen_grammar.py
